@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.postform{
+  background-color: rgb(230, 239, 247);
+  height: 350px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  flex-direction: row;
+ }
+ .form{
+     background-color: white;
+     margin: 30px 550px;
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     border-radius: 5px;
+ }
+ .form label{
+ font-size: 20px;
+ }
+ .form input{
+     padding: 15px;
+     border-color: rgb(177, 176, 176);
+     border-radius: 8px;
+     outline: none;
+ }
+ .form textarea{
+     padding: 15px;
+     width:30rem;
+     outline: none;
+     border-radius: 8px;
+ }
+ .form button{
+     margin-top: 10px;
+     margin-right: 10px;
+     padding: 10px 20px;
+     background-color: rgb(39, 156, 111);
+     color: white;
+     border-radius: 10px;
+     outline: none;
+ }
+ .card{
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+ }
+ .card .head1{
+    margin: 10px;
+ } 
+ .head1 p{
+     width: 300px;
+ }
+ .card.head2{
+     margin: 10px;
+ }
+ .head2 p{
+     width: 300x;
+ }
+ .card.head3{
+   margin: 10px;
+ }
+ .head3 p{
+     width: 300px;
+ }
+ .card button{
+     background-color: rgb(247, 248, 247);
+     padding: 10px 40px;
+     color: rgb(51, 25, 124);
+     border-radius: 10px;
+ }
