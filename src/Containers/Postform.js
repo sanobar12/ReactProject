@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./../App.css";
 
 export const Postform = (props) => {
+    // parent to chiled inherit the properties(form to list)
     const {update} = props
     const [name, setName] = useState("")
     const [textname, setTextname] = useState("")
